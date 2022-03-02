@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Verkefni 7 RWD</title>
+		<link rel="stylesheet" type="text/css" href="verkefni_7.css">
+<style>
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: #2d341d;
+  cursor: pointer;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 50%;
+  
+  
+}
+
+
+</style>
+</head>
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">⇧</button>
+
+<script>
+
+var mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+<body id="efst"> 
+
+	<header> 
+		<img src="images/forest.jpg">
+	</header>
+	<nav>
+		<button class="button"><a href="#Links">Links</a></button>
+		<button class="button button3"><a href="#Enemys">Enemys</a></button>
+		<button class="button button4"><a href="#Video">Video</a></button>
+		<button class="button button5"><a href="#About">About Forest</a></button>
+	</nav>
+	<main>
+		<section class="b1 col-1" id="About">
+			<div>
+				<h2>The Forest (video game)</h2>
+				<p>The Forest is a survival horror video game developed and published by Endnight Games. The game takes place on a remote heavily forested peninsula, where the player character Eric Leblanc must fight off cannibalistic monsters while searching for his son Timmy after a plane crash. 
+				The game features nonlinear gameplay in an open world environment played from a first-person perspective, with no set missions or quests, empowering the player to make their own decisions for survival. Following a four-year long early access beta phase, the game was released for Microsoft Windows in April 2018, and for the PlayStation 4 in November 2018. 
+				The game was a commercial success, selling over five million copies by the end of 2018. 
+				A sequel game, Sons of the Forest, is under development, and is set to be released for Microsoft Windows on 20 May 2022.</p>
+			</div>
+			<div class="as1">
+				<figure class="mynd">
+				<img src="images/fire.png"></span>
+				<figcaption>Eric Leblanc</figcaption>
+			</div>
+		<section class="b2 col-2" id="Video">
+			<div>
+				<h2>Opening scene</h2>
+			</div>
+			<div>
+				<iframe width="504" height="300" src="https://www.youtube.com/embed/c4rN_YS0zCs" 
+				title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+				</iframe>
+			</div>
+			<div id="plot">
+				<h2>Plot</h2>
+				The game begins with Eric LeBlanc sitting in an airplane with his son, Timmy, before it suddenly crashes on a remote heavily forested peninsula. Despite being the sole survivors of the crash, a disoriented Eric watches helplessly as Timmy is kidnapped by a man covered in red paint before falling unconscious. Upon awakening in the wreckage, Eric goes out in search of his son but discovers that the peninsula is occupied by feral cannibalistic mutants, and is forced to defend himself while surviving off the land. In his search, Eric finds clues of Timmy’s whereabouts in the form of crayon drawings in several caverns. Eric may also spot the man in red from a distance, who will flee if approached.
+
+				Timmy’s drawings eventually lead Eric to an abandoned underground lab complex owned by Sahara Therapeutics, a large research company responsible for experimenting with creatures on the peninsula. Upon entering the lab, Eric finds the lab's personnel dead and discovers that they were studying an artifact called the Resurrection Obelisk. Created by a mysterious group called the Ancient Ones, the artifact has the power to resurrect the dead but requires a child sacrifice. Eric also learns that his son's kidnapper, Dr. Matthew Cross, was a chief researcher at the facility before losing his daughter Megan to an escaped mutant. Driven insane by his daughter’s death, Cross resorted to using the artifact and kidnapped Timmy as a sacrifice to revive Megan.
+
+				Eric soon finds Cross dead and then the artifact, only to find Timmy’s corpse inside; he had already been sacrificed to revive Megan. Despite being too late to save his son, Eric realizes that the machine connected to the artifact can still be used to resurrect Timmy. Going deeper into the facility, Eric finds the revived Megan but discovers that she has become a deranged monster, and is forced to kill her after she mutates and attacks him. Eric places Megan’s body into the artifact, but then realizes that a live sacrifice is needed. He then reaches the facility's observatory and discovers a second artifact known as the Power Obelisk, which functions as a type of EMP device capable of bringing down planes when activated, implying that Cross used it to cause the plane crash. Eric is then faced with either activating the artifact or shutting it down.
+
+				The game features two endings:
+
+				If Eric activates the artifact, he causes another plane to crash and finds a sacrifice to revive Timmy. One year later, Eric and Timmy have apparently been rescued and are invited onto a talk show to promote Eric's book, which chronicles his experiences on the peninsula. During the show, Timmy suddenly collapses and begins violently shaking, seemingly about to mutate like Megan did. Eric comforts Timmy and he returns to normal. Years later, an older-looking Timmy is shown investigating an island called "Site 2" while still struggling to suppress his mutations.
+				If Eric decides to shut down the artifact, he spares the lives of everyone on the plane at the cost of Timmy remaining dead. Eric then leaves the facility and burns a photo of Timmy, choosing to remain isolated on the peninsula indefinitely.
+			</div>
+		</article>
+		<section class="col-1 rammi" id="Enemys">
+			<div>
+				<figure>
+				<img src="images/SkinnyCannibalsFarket.png"></span>
+				<figcaption><b>Skinny Cannibals</b><br> the Skinny Cannibals, with the other being the regular cannibals. They are more aggressive and more hostile than regular cannibals, and will immediately attack the player unprovoked as they are hostile from the beginning of the game.</br></figcaption>
+			</div>
+			<div>
+				<figure>
+					<img src="images/PaintedCannibalsFarket.png"></span>
+					<figcaption><b>Painted Cannibals</b><br>are their own distinct group. Painted cannibals come in male and female forms. Regardless of gender, they will have small black crosses all over their body. They are noticeably stronger and faster than their counterparts, the regular cannibals. Painted cannibals have been observed traveling with fire cannibals. Like the regular cannibals, painted cannibals usually follow a leader. They can also be backed up via intimidation, like regular cannibals.</br></figcaption>
+			</div>
+			<div>	
+				<figure>
+				<img src="images/ArmsyFarket.png"></span>
+				<figcaption><b>Armsy</b><br>Is a creepy mutant, and given their name because of their many arms. There are two variations: the common pale skin-colored version and the rarer blue version.</br></figcaption>
+			</div>
+			<div>
+				<figure>
+				<img src="images/CowmanFarket.png"></span>
+				<figcaption><b>Cowman</b><br>This creature can be found in cave systems, but beginning on day 7 can also be found roaming the surface patrolling along with Armsies and Virginias.</br></figcaption>
+			</div>
+		</section>
+	</main>
+	<footer class="col-4" id ="Links">
+	<div>
+		<h3>Listar DD og ul</h3>
+		<dl>
+			<dt>nafn</dt>
+			<dd>Signý íris Hilmarsdóttir</dd>
+			<dt>Tölvupóstur</dt>
+			<dd>signyiris29@gmail.com</dd>
+			<dt>Áfangi og braut</dt>
+			<dd>VEFÞ1VG05AU,tölvubraut</dd>
+			<dt>skóli</dt>
+			<dd>upplýsingartækniskólinn</dd>
+		</dl>
+	</div>
+	<div>
+		<h3>Innri teinglar (relative links)</h3>
+			<ul style="list-style-type:none;">
+			<li>Verkefni 1</li>
+			<li>Verkefni 2</li>
+			<li>Verkefni 3</li>
+			<li>Verkefni 4</li>
+			</ul>
+	</div>
+	<div>
+		<h3>Links</h3>
+		<ul style="list-style-type:none;">
+		<li><a href="https://en.wikipedia.org/wiki/The_Forest_(video_game)">The Forest (video game)</a></li>
+		<li><a href="https://theforest.fandom.com/wiki/Mutant">Mutants</a></li>
+		</ul>
+	</div>
+	<div>
+		<b>The Forest map</b>
+		<figure class="mynd">
+		<img src="images/forest.png"></span>
+	</div>
+	<div>
+	© 2022 (Signý)
+	</div>
+	</footer>		
+</body>
+</html>
